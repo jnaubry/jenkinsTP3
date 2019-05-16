@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-		echo "Git - Etape de build"
+		echo "Etape de build - test git"
                 sh 'python --version'
             }
         }
